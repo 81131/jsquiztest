@@ -140,7 +140,7 @@ html {
 }
 
 .result-table {
-    max-width: 90%;
+    max-width: 94%;
     margin: 0 auto;
     border-radius: 3%;
     transition: 200ms;
@@ -186,6 +186,11 @@ th:hover {
     .submit:hover {
         font-size: 15px;
         width:25%;
+    }
+
+    td,th{
+        font-size:12px;
+        
     }
 
     
