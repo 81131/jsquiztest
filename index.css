@@ -164,20 +164,29 @@ th:hover {
 }
 
 @media only screen and (max-width: 768px) {
+    .maindiv{
+        width:85%
+        height:60%
+    }
+    
+    
     .topic {
-        font-size: 10px;
+        font-size: 12px;
     }
     .question {
-        font-size: 12px;
+        font-size: 15px;
     }
     .answer {
-        font-size: 12px;
+        font-size: 15px;
     }
     .submit,
     .selectedAnswer {
-        font-size: 12px;
+        font-size: 15px;
     }
     .submit:hover {
-        font-size: 12px;
+        font-size: 15px;
+        width:25%;
     }
+
+    
 }
